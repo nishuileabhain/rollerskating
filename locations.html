@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Marker Clustering</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script src="https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <script src="./index.js"></script>
+  </head>
+  <body>
+      <h1>index page</h1>
+      <h2>other pages</h2>
+      <ul>
+        <li><a href = index.html>index</a></li>
+        <li><a href = page2.html>page 2</a></li>
+        <li><a href = page3.html>page 3</a></li>
+        <li><a href = page4.html>page 4</a></li>
+
+      </ul>
+    <div id="map"></div>
+
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAm8lFdL9L49rfMTehsPV_cwr0PQnNdlGs
+&callback=initMap&libraries=&v=weekly"
+      async
+    ></script>
+  </body>
+</html>
