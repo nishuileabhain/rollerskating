@@ -205,14 +205,26 @@ hr {
 
 #times h2 {
     color: #fafafa;
-
 }
 
+footer {
+    height: 150px;
+}
 
+.social-networks{
+    text-align: center;
+}
 
+.social-networks li {
+    display: inline;
+}
 
-
-
+.social-networks i {
+    font-size: 150%;
+    margin: 1%;
+    padding: 5%;
+    color: #777777;
+}
 
 /* Set the size of the div element that contains the map */
 #map {
